@@ -7,28 +7,21 @@
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "3.0.1",
-    "tailwindcss": "^1.1.3"
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
     "customize-cra": "^0.9.1",
     "node-sass": "^4.13.0",
     "npm-run-all": "^4.1.5",
-    "postcss": "^7.0.23",
-    "postcss-cli": "^6.1.3",
     "react-app-rewired": "^2.1.5",
     "sass-resources-loader": "^2.0.1",
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "start:react",
-    "build": "npm-run-all build:css build:react",
-    "start:react": "react-app-rewired start",
-    "build:react": "react-app-rewired build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject",
-    "build:css": "postcss src/tailwind.css -o src/base.css",
-    "watch:css": "postcss src/tailwind.css -o src/base.css -w"
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",

@@ -5,7 +5,6 @@ const {
     override,
     addWebpackModuleRule,
     addWebpackResolve,
-    useEslintRc,
     disableEsLint
 } = require('customize-cra');
 const path = require('path');
