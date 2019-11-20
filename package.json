@@ -21,7 +21,7 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "npm-run-all --parallel watch:css start:react",
+    "start": "start:react",
     "build": "npm-run-all build:css build:react",
     "start:react": "react-app-rewired start",
     "build:react": "react-app-rewired build",
